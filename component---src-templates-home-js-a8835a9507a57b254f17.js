@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkwedding=self.webpackChunkwedding||[]).push([[998],{7810:function(e,n,t){t.r(n);var u=t(7294),a=t(7247);n.default=e=>u.createElement(a.Z,e)}}]);
-//# sourceMappingURL=component---src-templates-home-js-a8835a9507a57b254f17.js.map
