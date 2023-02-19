@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkwedding=self.webpackChunkwedding||[]).push([[971],{6971:function(e,a,t){t.r(a);var l=t(7294),s=t(5229);a.default=e=>l.createElement("div",{className:"WeddingPartyItem"},l.createElement(s.H3,{size:"lg",className:"Role"},e.role),l.createElement("div",{className:"WeddingPartyItemImage"},e.children),l.createElement(s.H4,{size:"md",className:"Name"},e.name))}}]);
+//# sourceMappingURL=971-92e9107a0b75ad18df6e.js.map
