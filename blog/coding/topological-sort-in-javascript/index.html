@@ -51,9 +51,6 @@ function topologicalSort(graph) {
   const result = []; // Array to hold the topological order
 
 
-  // Initialize the inDegree map with all vertices having zero incoming edges
-
-
   for (const vertex of graph) {
 
 
@@ -63,9 +60,6 @@ function topologicalSort(graph) {
   }
 
 
-  // Populate the inDegree map by counting the incoming edges for each vertex
-
-
   for (const [from, to] of graph) {
 
 
@@ -73,9 +67,6 @@ function topologicalSort(graph) {
 
 
   }
-
-
-  // Enqueue all vertices with no incoming edges
 
 
   for (const [vertex, degree] of inDegree.entries()) {
@@ -93,9 +84,6 @@ function topologicalSort(graph) {
   }
 
 
-  // Process vertices in the queue
-
-
   while (queue.length &gt; 0) {
 
 
@@ -103,9 +91,6 @@ function topologicalSort(graph) {
 
 
     result.push(current);
-
-
-    // Decrement the incoming edge count for each neighbor and enqueue if the degree becomes zero
 
 
     for (const [from, to] of graph) {
@@ -133,9 +118,6 @@ function topologicalSort(graph) {
 
 
   }
-
-
-  // If not all vertices are included in the topological order, then there must be a cycle in the graph
 
 
   if (result.length !== inDegree.size) {
