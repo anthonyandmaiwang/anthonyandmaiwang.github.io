@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkwedding=self.webpackChunkwedding||[]).push([[382],{382:function(e,t,n){n.r(t),n.d(t,{default:function(){return i}});var a=n(7294),c=n.p+"static/seating-86353b497521e240f3667cf300a872f0.jpg";var i=e=>a.createElement("img",{src:c,alt:"Reception Seating Chart"})}}]);
+//# sourceMappingURL=382-a7282434f2a896f683a3.js.map
